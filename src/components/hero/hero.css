@@ -1,0 +1,166 @@
+.hero {
+
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+
+
+
+}
+
+.hero-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.1;
+    padding-top: 100px;
+
+}
+
+.hero-parent {
+    max-width: 100%;
+    display: flex;
+    gap:30px;
+    margin: 0px 150px;
+
+}
+
+.hero-left h2 {
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+    text-wrap:nowrap;
+
+}
+
+.hero-left p {
+    color: #171717;
+    font-size: 80px;
+    font-weight: 700;
+    text-wrap:nowrap;
+
+
+
+}
+
+.hero-hand-icon div {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-hand-icon img {
+    width: 105px;
+}
+
+.herolatest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hero-right {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right img {
+    width: 100%;
+    object-fit: cover;
+}
+@media(max-width: 1084px) {
+    .hero-parent {
+        margin: 0px 80px;
+    
+    }
+  }
+  @media(max-width: 982px) {
+    .hero-parent {
+        margin: 0px 80px;
+    
+    }
+    .hero-left h2 {
+        color: #090909;
+        font-size: 20px;
+        font-weight: 600;
+        text-wrap:nowrap;
+    
+    }
+    
+    .hero-left p {
+        color: #171717;
+        font-size: 60px;
+        font-weight: 700;
+        text-wrap:nowrap;
+    
+    
+    
+    }
+  } 
+  
+  @media(max-width: 883px) {
+    /* .hero-parent {
+      flex-direction: column;
+    
+    } */
+    .hero-left {
+        flex: 1;
+       
+    
+    }
+    .hero-left h2 {
+        color: #090909;
+        font-size: 18px;
+        font-weight: 600;
+        text-wrap:nowrap;
+    
+    }
+    
+    .hero-left p {
+        color: #171717;
+        font-size: 40px;
+        font-weight: 700;
+        text-wrap:nowrap;
+    
+    }
+    .hero-hand-icon img {
+        width: 60px;
+    }
+    .herolatest-btn {
+        gap: 15px;
+        width: 250px;
+        height: 60px;
+        border-radius: 75px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+   
+  }
+  @media(max-width:692px) {
+    .hero-parent {
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .hero-left {
+        padding-top:60px;
+    }
+  }
+  
+
+
+@media(max-width:393px) {
+    .hero-parent {
+        margin: 0px 20px;
+    
+    }
+
+  }

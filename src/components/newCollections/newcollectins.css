@@ -1,0 +1,11 @@
+.newcollectins-head{
+    text-align: center;
+}
+.collections{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top:50px;
+    justify-content: center;
+}
+
